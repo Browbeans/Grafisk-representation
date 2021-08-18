@@ -1,0 +1,27 @@
+.Layout {
+   background: grey;
+   height: 100%;
+   width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: #dadada;
+}
+
+.showCase {
+    width: 100%;
+    height: 300px;
+    background: #00aeef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 5rem;
+    color: white;
+    font-weight: 100;
+}
