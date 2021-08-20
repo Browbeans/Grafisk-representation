@@ -8,6 +8,32 @@
     width: 100%;
     height: 100px;
     background: #dadada;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation  {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    width: 20rem;
+    height: 100%;
+}
+
+.right-section {
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-section span {
+    font-size: 2.5rem;
 }
 
 .showCase {
@@ -58,7 +84,7 @@ h1 {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0 3rem 0 3rem;
+    margin: 3rem;
 }
 
 .product {
@@ -91,4 +117,39 @@ h1 {
 
 .product-info h3 {
     font-family: shadows-into-light, sans-serif;
+}
+
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-photo {
+    margin: 4rem 2rem;
+    height: 25rem;
+    width: 25rem;
+    background: chartreuse;
+    border-radius: 25rem;
+}
+
+.employee-text {
+    width: 35rem;
+    height: 17rem;
+    background: #00aeef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.contact-text {
+    margin: 4rem 2rem;
+}
+
+.contact-text h3 {
+    font-size: 3rem;
+    font-family: shadows-into-light, sans-serif;
+    margin-bottom: 2rem;
+    margin-top: 0;
 }
