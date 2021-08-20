@@ -17,6 +17,10 @@ function Header() {
                         <span>CONTACT</span>
                     </Link>
                 </div>
+
+                <div className="burger">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </div>
     )

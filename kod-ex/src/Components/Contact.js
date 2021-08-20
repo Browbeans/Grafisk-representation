@@ -1,8 +1,10 @@
+import Jerry from "../assets/sein.jpg"
+
 function Contact() {
     return(
         <div className="contact">
             <div className="contact-photo">
-
+                <img src={Jerry} alt="sadasd"></img>
             </div>
             <div className="contact-text">
                 <h3>Jerry Seinfeld, CEO</h3>
