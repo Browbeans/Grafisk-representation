@@ -12,7 +12,7 @@ function Main() {
             <Products />
           </Route>
           <Route path="/contact">
-            <Contact />
+            <Contact/>
           </Route>
         </Switch>
       </div>
