@@ -1,15 +1,16 @@
 import "../style/layout.css"
 import Header from "./Header"
 import ShowCase from "./ShowCase"
-import { Switch } from "react-router"
+import Main from "./Main"
+import Footer from "./Footer"
 
 function Layout() {
     return (
     <div className="Layout">
         <Header />
         <ShowCase />
-        <Switch>
-        </Switch>
+        <Main />
+        <Footer />
     </div>
     )
 }
